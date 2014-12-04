@@ -8,3 +8,6 @@ C:\Source\home\Theatre\Theatre\bin\Debug\NAudio.xml
 C:\Source\home\Theatre\Theatre\obj\Debug\Conversion.csprojResolveAssemblyReference.cache
 C:\Source\home\Theatre\Theatre\obj\Debug\Theatre.Conversion.exe
 C:\Source\home\Theatre\Theatre\obj\Debug\Theatre.Conversion.pdb
+C:\Source\home\theatrix\Theatre\bin\Debug\Theatre.Conversion.exe.config
+C:\Source\home\theatrix\Theatre\obj\Debug\Theatre.Conversion.exe
+C:\Source\home\theatrix\Theatre\obj\Debug\Theatre.Conversion.pdb
