@@ -13,7 +13,6 @@ namespace Theatrix.Data
     public class FlixterDao
     {
         public const int FlixterTimeoutMilliseconds = 10000;
-        private const string FlixterApiKey = "ybg6m6hgxuztkusn59y638sq";
 
         private string GetMoviesApiUri()
         {
