@@ -9,3 +9,14 @@ C:\Source\home\Theatre\Theatrix.Data\bin\Debug\Newtonsoft.Json.xml
 C:\Source\home\Theatre\Theatrix.Data\obj\Debug\Theatrix.Data.csprojResolveAssemblyReference.cache
 C:\Source\home\Theatre\Theatrix.Data\obj\Debug\Theatrix.Data.dll
 C:\Source\home\Theatre\Theatrix.Data\obj\Debug\Theatrix.Data.pdb
+C:\Source\home\theatrix\Theatrix.Data\obj\Debug\Theatrix.Data.csprojResolveAssemblyReference.cache
+C:\Source\home\theatrix\Theatrix.Data\obj\Debug\Theatrix.Data.dll
+C:\Source\home\theatrix\Theatrix.Data\obj\Debug\Theatrix.Data.pdb
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\Theatrix.Data.dll
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\Theatrix.Data.pdb
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\MongoDB.Bson.dll
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\MongoDB.Driver.dll
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\MongoDB.Bson.xml
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\MongoDB.Driver.xml
+C:\Source\home\theatrix\Theatrix.Data\bin\Debug\Newtonsoft.Json.xml

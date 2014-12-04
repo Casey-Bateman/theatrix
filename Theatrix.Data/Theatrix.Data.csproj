@@ -41,6 +41,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,15 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseObjects\AbridgedCast.cs" />
-    <Compile Include="BaseObjects\FlixterMovies.cs" />
-    <Compile Include="BaseObjects\MovieLinks.cs" />
-    <Compile Include="BaseObjects\Posters.cs" />
-    <Compile Include="BaseObjects\Ratings.cs" />
-    <Compile Include="BaseObjects\ReleaseDates.cs" />
-    <Compile Include="FlixterDao.cs" />
+    <Compile Include="Models\AbridgedCast.cs" />
+    <Compile Include="Models\Config\ApiConfig.cs" />
+    <Compile Include="Models\FlixterMovieList.cs" />
+    <Compile Include="Models\FlixterMovie.cs" />
+    <Compile Include="Models\MovieLinks.cs" />
+    <Compile Include="Models\Posters.cs" />
+    <Compile Include="Models\Ratings.cs" />
+    <Compile Include="Models\ReleaseDates.cs" />
+    <Compile Include="FlixterApi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="Data\rotten-tomatoes.txt" />
+    <Compile Include="BaseObjects\WebRequestApi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
