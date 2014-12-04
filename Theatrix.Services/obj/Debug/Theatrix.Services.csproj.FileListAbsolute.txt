@@ -1,0 +1,6 @@
+C:\Source\home\Theatre\Theatrix.Services\bin\Theatrix.Services.dll
+C:\Source\home\Theatre\Theatrix.Services\bin\Theatrix.Services.pdb
+C:\Source\home\Theatre\Theatrix.Services\obj\Debug\Theatrix.Services.csprojResolveAssemblyReference.cache
+C:\Source\home\Theatre\Theatrix.Services\obj\Debug\Theatrix.Services.dll
+C:\Source\home\Theatre\Theatrix.Services\obj\Debug\Theatrix.Services.pdb
+C:\Source\home\Theatre\Theatrix.Services\bin\Theatrix.Services.dll.config

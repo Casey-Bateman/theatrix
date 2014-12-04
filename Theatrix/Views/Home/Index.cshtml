@@ -1,0 +1,27 @@
+﻿@section scripts
+{
+    @Scripts.Render("~/bundles/search")
+}
+
+<div class="search">
+    <input id="search" name="search" value="" type="text" autocomplete="off" />
+</div>
+
+<a href="#" class="fa fa-chevron-left">&nbsp;
+</a>
+<a href="#" class="fa fa-chevron-right">&nbsp;
+</a>
+
+<div class="poster reflect">
+    <a href="@Url.Action("Index", "VideoPlayer", new { videoId = 9999 })" class="fa fa-play">
+    </a>
+    <img src="~/Content/mos.jpg" alt="Man Of Steel"/>
+    <div class="info">
+        <h2>Superman: Man Of Steel</h2>
+        <b>Director</b>
+        <p>Christopher Nolan</p>
+        <b>Description</b>
+        <p>This movie is just about the greatest movie known to mankind. the series is fantastic and my wife Jennifer loves it and Superman as a person very very much. i really realy want to see a reflection of this text but i am not sure that it is possible... we will see if css box reflet is doing what it advertises</p>
+    </div>
+</div>
+

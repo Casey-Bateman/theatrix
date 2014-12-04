@@ -1,0 +1,10 @@
+C:\Source\home\Theatre\Theatre\bin\Debug\Theatre.Conversion.exe.config
+C:\Source\home\Theatre\Theatre\bin\Debug\Theatre.Conversion.exe
+C:\Source\home\Theatre\Theatre\bin\Debug\Theatre.Conversion.pdb
+C:\Source\home\Theatre\Theatre\bin\Debug\log4net.dll
+C:\Source\home\Theatre\Theatre\bin\Debug\NAudio.dll
+C:\Source\home\Theatre\Theatre\bin\Debug\log4net.xml
+C:\Source\home\Theatre\Theatre\bin\Debug\NAudio.xml
+C:\Source\home\Theatre\Theatre\obj\Debug\Conversion.csprojResolveAssemblyReference.cache
+C:\Source\home\Theatre\Theatre\obj\Debug\Theatre.Conversion.exe
+C:\Source\home\Theatre\Theatre\obj\Debug\Theatre.Conversion.pdb

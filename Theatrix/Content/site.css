@@ -1,0 +1,230 @@
+﻿body {
+    background-color: #fff;
+    overflow: hidden;
+}
+#floor {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 25%;
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#ddd), to(#fff));
+}
+#body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+
+.site-title a {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Century Gothic";
+    margin: 0 20px;
+    float: left;
+    color: rgba(0, 0, 0, .5);
+    -webkit-text-shadow: rgba(0, 0, 0, .2);
+    text-shadow: rgba(0, 0, 0, .2);
+    text-decoration: none;
+}
+
+.search {
+    margin: 3% auto 0 auto; 
+    display: table; 
+}
+.search input {
+    border: 1px transparent; 
+    font-family: "Century Gothic";
+    font-size: 30px;
+    width: 600px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.search input:focus {
+     outline: none;
+}
+
+.reflect {
+    -webkit-box-reflect: below 1% -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.2)));
+}
+.poster {
+    height: 350px;
+    width: 750px; 
+    margin: 7% auto 0 auto;
+    display: table;
+}
+.poster .fa-play {
+    border-radius: 100px;
+    margin-left: 75px;
+    margin-top: 140px;
+    background-color: rgba(255, 255, 255, .2);
+    color: rgba(255, 255, 255, .5);
+    font-size: 40px;
+    position: absolute;
+    text-decoration: none;
+    padding: 10px 40px;
+    z-index: 200;
+}
+
+.poster img {
+    height: 350px;
+    width: 250px;
+    float: left;
+    z-index: 100;
+}
+.poster .info {
+    font-family: "Century Gothic";
+    height: 350px;
+    width: 480px;
+    float: right;
+    color: rgba(0, 0, 0, .8);
+}
+.poster .info h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 5px 0 10px 0;
+}
+.poster .info p {
+    margin: 10px 0; 
+}
+
+.wall-container {
+    top: 15%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    float: left;
+    display: none;
+}
+.wall {
+    list-style-type: none;
+    display: inline;
+}
+.wall .mini-poster {
+    float: left;
+    margin: 5px;
+    padding: 0; 
+}
+.wall .mini-poster img {
+    height: 105px;
+    width: 75px; 
+}
+.fa-chevron-right, 
+.fa-chevron-left {
+    color: rgba(0, 0, 0, .2);
+    font-size: 55px;
+    position: absolute;
+    text-decoration: none;
+    padding: 10px;
+}
+.fa-chevron-right {
+    border-radius: 5px 0 0 5px;
+    top: 40%;
+    right: 0;
+}
+.fa-chevron-left {
+    border-radius: 0 5px 5px 0;
+    top: 40%;
+    left: 0;
+}
+.fa-chevron-right:hover, 
+.fa-chevron-left:hover,
+.fa-chevron-right:focus, 
+.fa-chevron-left:focus {
+    outline: none;
+    animation-name: hoverbutton;
+    -webkit-animation-name: hoverbutton;
+    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    color: rgba(0, 125, 255, .7);
+    text-shadow: 2px 2px 2px rgba(0, 125, 255, .7);
+}
+
+.fa-play:hover, 
+.fa-play:focus {
+    outline: none;
+    animation-name: hoverplay;
+    -webkit-animation-name: hoverplay;
+    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .8);
+}
+
+@-webkit-keyframes hoverplay {
+    from {
+        background-color: rgba(255, 255, 255, .2);
+        color: rgba(255, 255, 255, .5);
+    }
+    to {
+        background-color: rgba(255, 255, 255, .5);
+        color: rgba(255, 255, 255, .8);
+    }
+}
+
+@-webkit-keyframes hoverbutton {
+    from {
+        color: rgba(0, 0, 0, .2);
+        text-shadow: 2px 2px 2px transparent;
+    }
+    to {
+        color: rgba(0, 125, 255, .7);
+        text-shadow: 2px 2px 2px rgba(0, 125, 255, .7);
+    }
+}
+
+.animate-out-left {
+    -webkit-animation-name: animateoutleft;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-iteration-count: 1; 
+    margin: 7% auto 0 auto;
+}
+
+@-webkit-keyframes animateoutleft {
+    100% {
+        margin: 7% auto 0 -800px;
+        opacity: 0; 
+    }
+}
+
+.animate-out-right {
+    -webkit-animation-name: animateoutright;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-iteration-count: 1; 
+    margin: 7% auto 0 auto;
+}
+
+@-webkit-keyframes animateoutright {
+    100% {
+        margin: 7% -800px 0 auto;
+        opacity: 0; 
+    }
+}
+
+.animate-in {
+    -webkit-animation-name: animatein;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-iteration-count: 1; 
+    opacity: 1;
+}
+
+@-webkit-keyframes animatein {
+    0% {
+        margin-top: -800px;
+        opacity: 0; 
+    }
+    75% {
+        margin-top: 4%;
+        opacity: 1;
+    }
+    100% {
+        margin-top: 7%;
+    }
+}
+

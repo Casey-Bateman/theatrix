@@ -1,0 +1,10 @@
+C:\Source\home\Theatre\Theatrix.Data.Debug\bin\Debug\Theatrix.Data.Debug.exe.config
+C:\Source\home\Theatre\Theatrix.Data.Debug\bin\Debug\Theatrix.Data.Debug.exe
+C:\Source\home\Theatre\Theatrix.Data.Debug\bin\Debug\Theatrix.Data.Debug.pdb
+C:\Source\home\Theatre\Theatrix.Data.Debug\bin\Debug\Theatrix.Data.dll
+C:\Source\home\Theatre\Theatrix.Data.Debug\bin\Debug\Newtonsoft.Json.dll
+C:\Source\home\Theatre\Theatrix.Data.Debug\bin\Debug\Theatrix.Data.pdb
+C:\Source\home\Theatre\Theatrix.Data.Debug\bin\Debug\Newtonsoft.Json.xml
+C:\Source\home\Theatre\Theatrix.Data.Debug\obj\Debug\Theatrix.Data.Debug.csprojResolveAssemblyReference.cache
+C:\Source\home\Theatre\Theatrix.Data.Debug\obj\Debug\Theatrix.Data.Debug.exe
+C:\Source\home\Theatre\Theatrix.Data.Debug\obj\Debug\Theatrix.Data.Debug.pdb
