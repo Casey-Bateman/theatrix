@@ -48,13 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="Utility\IMediaInfo.cs" />
-    <Compile Include="Utility\InfoFileOptions.cs" />
-    <Compile Include="Utility\InfoKind.cs" />
-    <Compile Include="Utility\InfoOptions.cs" />
-    <Compile Include="Utility\MediaInfo.cs" />
-    <Compile Include="Utility\MediaInfoList.cs" />
-    <Compile Include="Utility\StreamKind.cs" />
     <Compile Include="Video\VideoInfo.cs" />
     <Compile Include="Video\VideoJob.cs" />
     <Compile Include="Video\VideoJobCollection.cs" />
@@ -63,9 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="MediaInfo.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
